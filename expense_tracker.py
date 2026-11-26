@@ -42,7 +42,7 @@ def main():
         print("2. Afficher les depenses")
         print("3. Afficher le total")
         print("4. Quitter")
-        print("5. Show average")
+        print("6. Show average")
 
         choice = input("Votre choix: ")
 
@@ -55,7 +55,7 @@ def main():
         elif choice == "4":
             print("Au revoir !")
             break
-        elif choice == "5":
+        elif choice == "6":
             show_average()
         else:
             print("Choix invalide.")
